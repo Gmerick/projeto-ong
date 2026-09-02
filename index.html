@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Instituto Conecta Esperança: educação, tecnologia, voluntariado e ações comunitárias.">
+  <meta name="theme-color" content="#155a4d">
+  <title>Instituto Conecta Esperança</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#app">Ir para o conteúdo principal</a>
+<header class="site-header"><div class="container header-inner">
+  <a class="brand" href="#home" data-route="home"><span class="brand-mark" aria-hidden="true">CE</span><span>Conecta Esperança</span></a>
+  <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false"><span class="sr-only">Abrir menu principal</span><span aria-hidden="true">☰</span></button>
+  <nav id="main-nav" class="main-nav" aria-label="Navegação principal"><ul class="nav-list"><li><a href="#home" data-route="home">Início</a></li><li><a href="#projetos" data-route="projetos">Projetos</a></li><li><a href="#cadastro" data-route="cadastro">Cadastro</a></li></ul></nav>
+  <div class="theme-switcher" role="group" aria-label="Modo de cor"><button data-theme-value="light">Claro</button><button data-theme-value="dark">Escuro</button><button data-theme-value="contrast">Contraste</button></div>
+</div></header>
+<main id="app" class="app-main" tabindex="-1" aria-live="polite"></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; 2026 Instituto Conecta Esperança.</p><p>Projeto acadêmico de Desenvolvimento Front-end.</p></div></footer>
+<div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+<div id="project-modal" class="modal-backdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description"><div class="modal-header"><h2 id="modal-title">Detalhes do projeto</h2><button class="icon-button" data-modal-close aria-label="Fechar janela">×</button></div><p id="modal-description"></p><div class="actions"><button class="button button-secondary" data-modal-close>Fechar</button><a class="button button-primary" href="#cadastro" data-route="cadastro" data-modal-close>Quero participar</a></div></section></div>
+<script type="module" src="/js/app.js"></script>
+</body></html>
